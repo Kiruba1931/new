@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('scm checkout'){
             steps{
-            git 
+            git 'https://github.com/Kiruba1931/new.git'
             }
         }
     }
